@@ -4,7 +4,7 @@ import Loading from "@/components/Loading";
 import Present from "@/components/Present";
 
 function Home() {
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {

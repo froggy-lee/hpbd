@@ -40,7 +40,7 @@ function Present() {
               <div className="spark6"></div>
             </div>
           </div>
-          {toggleText && <Text />}
+          <div className="text-place">{toggleText && <Text />}</div>
           <div>
             {reLoad && (
               <button className="btn-reload" onClick={handleReload}>

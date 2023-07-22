@@ -8,11 +8,15 @@
   background: url("/bg.png") no-repeat;
   background-size: cover;
 }
+.text-place {
+  height: 50px;
+}
 
 .btn-reload {
+  width: 200px;
   padding: 5px 10px;
   margin-top: 30px;
-  margin-left: -15px;
+  margin-left: -25px;
   font-size: 20px;
   color: black;
   background: rgba(255, 255, 255, 0.3);
@@ -24,7 +28,11 @@
   position: relative;
   scale: 1;
   transition: scale 5s linear infinite;
-  margin-left: 70px;
+  // margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   &:hover {
     scale: 1.05;
   }
